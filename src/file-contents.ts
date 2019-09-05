@@ -69,7 +69,11 @@ export default class ${name}Component extends Vue {
 <template>
     <div class="sample">
         <v-validate />
-        <!-- design template view at below -->
+ 	<v-function-area>
+        </v-function-area>
+	<main class role="main">
+        	<!-- design template view at below -->
+ 	</main>
     </div>
 </template>
 
